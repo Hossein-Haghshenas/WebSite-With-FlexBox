@@ -24,6 +24,7 @@ li {
 .header-menu {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding: 1rem;
   background: rgba(53, 53, 53, 0.212);
   box-shadow: 1px 2px 3px #5c5c5c;
@@ -46,6 +47,55 @@ li {
 
 /* header-menu-end */
 
+/* description-start*/
+.description-text-box {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 5rem 2rem;
+  padding: 3rem 1.5rem;
+  letter-spacing: 1px;
+}
+.description-text-box p {
+  font-size: 16px;
+  margin-top: 1rem;
+}
+.description-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.card {
+  text-align: center;
+  background: #5c5c5c88;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 15px;
+}
+.card-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+}
+.card-text {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.card-btn {
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 27, 27, 0.603);
+  margin: 1rem;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.card-btn:hover {
+  background-color: rgba(255, 0, 0, 0.699);
+}
+/* description-end*/
 /* footer-start */
 footer {
   text-align: center;
