@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Road+Rage&display=swap");
+
+/* set default */
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  font-family: "EB Garamond", cursive;
 }
 a {
   text-decoration: none;
@@ -9,12 +17,6 @@ a {
 }
 li {
   list-style: none;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 /* header-menu-start */
@@ -28,7 +30,7 @@ header {
 }
 .header-menu li {
   margin: 0.5rem 2rem;
-  font-family: "Road Rage", cursive;
+  font-family: "Road Rage", cursive !important;
   font-size: 30px;
   letter-spacing: 1px;
   text-shadow: 1px 2px 3px #5c5c5c;
@@ -43,3 +45,22 @@ header {
 }
 
 /* header-menu-end */
+
+/* footer-start */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 600;
+  background: #5c5c5c96;
+  letter-spacing: 1px;
+}
+footer p span a {
+  font-weight: 700;
+  color: rgba(161, 0, 0, 0.733);
+  transition: all 0.4s ease;
+}
+footer p span a:hover {
+  text-shadow: 1px 2px 3px #ff000083;
+  font-size: 16.5px;
+}
+/* footer-end */
