@@ -73,6 +73,9 @@ li {
   margin: 1.5rem 0.3rem;
   border-radius: 15px;
 }
+.card:hover {
+  box-shadow: 0 0 5px 1px #5c5c5c88;
+}
 .card-img {
   width: 150px;
   height: 150px;
@@ -91,6 +94,7 @@ li {
   border: none;
   outline: none;
   cursor: pointer;
+  box-shadow: 0 0 5px 1px rgba(255, 27, 27, 0.603);
   transition: all 0.4s ease;
 }
 .card-btn:hover {
@@ -132,7 +136,7 @@ li {
 .Section-table {
   display: flex;
   justify-content: center;
-  margin: 2rem 0;
+  margin: 2rem 0 4rem;
 }
 table {
   border-collapse: collapse;
@@ -147,6 +151,13 @@ tbody {
 .table-body tr td {
   border: 1px solid rgb(63, 63, 63);
   text-align: center;
+  transition: all 0.4s ease;
+}
+.table-head tr th {
+  background: #2dffff96;
+}
+.table-body tr td:hover {
+  background: #2d4cff96;
 }
 /* main-SectionPage-end */
 
