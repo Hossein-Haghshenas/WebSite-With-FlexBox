@@ -128,6 +128,28 @@ li {
 
 /* main-rules-end */
 
+/* main-SectionPage-start */
+.Section-table {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+table {
+  border-collapse: collapse;
+  width: 35rem;
+  margin: 0 1rem;
+}
+thead,
+tbody {
+  overflow-x: scroll;
+}
+.table-head tr th,
+.table-body tr td {
+  border: 1px solid rgb(63, 63, 63);
+  text-align: center;
+}
+/* main-SectionPage-end */
+
 /* footer-start */
 footer {
   text-align: center;
