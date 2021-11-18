@@ -47,19 +47,19 @@ li {
 
 /* header-menu-end */
 
-/* description-start*/
-.description-text-box {
+/* main-start*/
+.main-text-box {
   border: 1px solid black;
   border-radius: 15px;
-  margin: 5rem 2rem;
+  margin: 3rem 2rem;
   padding: 3rem 1.5rem;
   letter-spacing: 1px;
 }
-.description-text-box p {
+.main-text-box p {
   font-size: 16px;
   margin-top: 1rem;
 }
-.description-cards {
+.main-cards {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -69,7 +69,7 @@ li {
   text-align: center;
   background: #5c5c5c88;
   padding: 2rem;
-  margin: 2rem 0;
+  margin: 1.5rem 0.3rem;
   border-radius: 15px;
 }
 .card-img {
@@ -95,7 +95,7 @@ li {
 .card-btn:hover {
   background-color: rgba(255, 0, 0, 0.699);
 }
-/* description-end*/
+/* main-end*/
 /* footer-start */
 footer {
   text-align: center;
